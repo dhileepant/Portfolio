@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="This is my portfolio website." />
+    <meta name="veiwport" content="width=device-width, initial score=1.0" />
+    <title>DHILEEPAN T - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="intro" class="intro">
+      <h1 id="intro-title">Dhileepan T Portfolio</h1>
+      <p id="intro-tagline">
+        An aspiring and passionate developer and programmer
+      </p>
+    </div>
+
+    <nav class="navbar">
+      <div class="nav-container">
+        <h1 class="logo">Portfolio</h1>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#badges">Badges</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="fullscreen">
+      <aside class="sidebar">
+        <div class="profile-box">
+          <img src="assets/profile.png" class="profile-img" />
+          <p class="sidebar-name">Dhileepan T</p>
+          <hr class="line" />
+          <p style="margin: 0">
+            <img
+              src="assets/gamil.jpg"
+              style="
+                width: 15px;
+                height: 15px;
+                vertical-align: text-top;
+                margin-left: 15px;
+                margin-right: 5px;
+                border-width: 0.1px;
+              "
+            />
+            dhileepantv@gmail.com
+          </p>
+
+          <p style="margin: 0">
+            <img
+              src="assets/linkedin.webp"
+              style="
+                width: 15px;
+                height: 15px;
+                vertical-align: text-top;
+                margin-left: 15px;
+                margin-right: 5px;
+                border-width: 0.1px;
+              "
+            />
+            <a href="https://www.linkedin.com/in/dhileepan-t-5982682a6">LinkedIn</a>
+          </p>
+
+          <p style="margin: 0">
+            <img
+              src="assets/github.png"
+              style="
+                width: 15px;
+                height: 15px;
+                vertical-align: text-top;
+                margin-left: 15px;
+                margin-right: 5px;
+                border-width: 0.1px;
+              "
+            />
+            <a href="https://github.com/dhileepant">GitHub</a>
+          </p>
+
+          <p style="margin: 0">
+            <img src="assets/LeetCode.png"
+              style="
+                width: 15px;
+                height: 15px;
+                vertical-align: text-top;
+                margin-left: 15px;
+                margin-right: 5px;
+                border-width: 0.1px;
+              "
+            />
+            <a href="https://leetcode.com/u/dhileepan13/">Leetcode</a>
+          </p>
+
+          <p style="margin: 0">
+            <img src="assets/codolio.jpg"
+              style="
+                width: 15px;
+                height: 15px;
+                vertical-align: text-top;
+                margin-left: 15px;
+                margin-right: 5px;
+                border-width: 0.1px;
+              "
+            />
+            <a href="https://codolio.com/profile/dhileepan">Codolio</a>
+          </p>
+
+          <p style="margin: 0">
+            <img src="assets/codechef.jpg"
+              style="
+                width: 15px;
+                height: 15px;
+                vertical-align: text-top;
+                margin-left: 15px;
+                margin-right: 5px;
+                border-width: 0.1px;
+              "
+            />
+            <a href="https://www.codechef.com/users/dhileepan_2">Codechef</a>
+          </p>
+
+        </div>
+      </aside>
+
+      <div id="blackbox">
+        <div id="main-content" style="display: none">
+          <section id="home">
+          <h1 class="quote">
+            "You don’t have to be great to start,<br />
+            but you have to start to be great."
+          </h1>
+            <header class="scale-up-center-normal">
+              <h1>DHILEEPAN T</h1>
+              <p>I'm an aspiring developer passionate about coding.</p>
+            </header>
+          </section>
+
+          <div id="computer-image">
+            <img src="assets/computer.png" />
+          </div>
+
+          <section id="about-wrapper">
+            <section id="about">
+              <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                  Hi! I'm DHILEEPAN T, a passionate web developer and a
+                  programmer. I'm an aspiring developer passionate about coding.
+                  I love building clean, responsive websites and solving
+                  real-world problems with code. I'm always learning new
+                  technologies and working on exciting projects.
+                </p>
+              </div>
+            </section>
+
+            <div class="floating-photo">
+              <img src="assets/profile.png" />
+            </div>
+          </section>
+
+          <section id="certificates">
+            <h2 id="cert-title">Certificates</h2>
+            <div class="certificates-grid">
+              <div
+                class="cert-card"
+                onclick="openCertificate('assets/certificates/NPTEL - Problem Solving Through Programming In C.jpg')"
+              >
+                <img
+                  src="assets/certificates/NPTEL - Problem Solving Through Programming In C.jpg"
+                  alt="Certificate 1"
+                />
+                <p class="cert-title">
+                  NPTEL - Problem Solving Through Programming In C
+                </p>
+              </div>
+              <div
+                class="cert-card"
+                onclick="openCertificate('assets/certificates/Coursera - Get Started with Python.jpg')"
+              >
+                <img
+                  src="assets/certificates/Coursera - Get Started with Python.jpg"
+                  alt="Certificate 2"
+                />
+                <p class="cert-title">Coursera - Get Started with Python</p>
+              </div>
+              <div
+                class="cert-card"
+                onclick="openCertificate('assets/certificates/INFOSYS - Python Foundation Certification.jpg')"
+              >
+                <img
+                  src="assets/certificates/INFOSYS - Python Foundation Certification.jpg"
+                  alt="Certificate 3"
+                />
+                <p class="cert-title">
+                  INFOSYS - Python Foundation Certification
+                </p>
+              </div>
+              <div
+                class="cert-card"
+                onclick="openCertificate('assets/certificates/INFOSYS -  Java Foundation Certification.jpg')"
+              >
+                <img
+                  src="assets/certificates/INFOSYS -  Java Foundation Certification.jpg"
+                  alt="Certificate 3"
+                />
+                <p class="cert-title">
+                  INFOSYS - Java Foundation Certification
+                </p>
+              </div>
+              <div
+                class="cert-card"
+                onclick="openCertificate('assets/certificates/INFOSYS -  TechA Web Development using HTML and CSS Foundation Certification.jpg')"
+              >
+                <img
+                  src="assets/certificates/INFOSYS -  TechA Web Development using HTML and CSS Foundation Certification.jpg"
+                  alt="Certificate 3"
+                />
+                <p class="cert-title">
+                  INFOSYS - TechA Web Development using HTML and CSS Foundation
+                  Certification
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="certificate-modal"
+              id="modal"
+              onclick="closeCertificate()"
+            >
+              <img id="modal-img" />
+            </div>
+          </section>
+
+          <section id="badges">
+            <h2 id="badge-title">Badges</h2>
+            <div class="gradient-wrapper">
+              <div class="gradient-shadow"></div>
+              <div class="content-box">
+                <div class="badges-grid">
+                  <div class="badge-card">
+                    <img src="assets/badges/CodeChef-diamond.png" alt="CodeChef-diamond badge">
+                    <P>CodeChef-diamond badge - 100 days streak</P>
+                  </div>
+                  <div class="badge-card">
+                    <img src="assets/badges/leetcode-2025-50days.png" alt="leetcode-2025-50days">
+                    <P>Leetcode-2025-50days badge</P>
+                  </div>
+                  <div class="badge-card">
+                    <img src="assets/badges/leetcode-june.png" alt="leetcode-june">
+                    <P>leetcode-june month daily problem completion streak badge</P>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+              <li><strong>Project 1:</strong>Description</li>
+              <li><strong>Project 2:</strong>Description</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Contact</h2>
+            <p><strong>Email </strong> - dhileepantv@gmail.com</p>
+            <p><strong>Linkedin </strong> -</p>
+            <p><strong>Git-Hub </strong> -</p>
+          </section>
+
+          <footer>&copy;reserved.</footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="anime.iife.min.js" defer></script>
+<script src="script.js" defer></script>
